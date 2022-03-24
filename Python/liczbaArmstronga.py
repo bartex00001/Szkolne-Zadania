@@ -1,15 +1,15 @@
-# Sprawdz czy podana liczba jest 'armstrongowa'
+# Sprawdź czy podana liczba jest liczbą Armstronga
 
-strNum = input("Wprowadź liczbę: ")		# wczytujemy od uzytkownika liczbe JAKO TEKST
-Num = int(strNum)						# przypisujemy zmiennej Num wczytana liczbe jako int
+strNum = input("Wprowadź liczbę: ")		# wczytujemy od użytkownika liczbę JAKO TEKST
+Num = int(strNum)						# przypisujemy zmiennej Num wczytaną liczbę jako int
 
-dlugosc = len(strNum)					# zapamietaj dlugosc (przyda sie pozniej)
+dlugosc = len(strNum)					# zapamietujemy dlugość (przyda się później)
 suma = 0
 
-for i in strNum:						# iterujemy po literach w tekscie
-    suma += int(i) ** dlugosc			# dodajemy do sumy cyfre podniesiona do potegi dlugosci calej wprowadzonej liczby
+for i in strNum:						# iterujemy po literach w tekście
+    suma += int(i) ** dlugosc			# dodajemy do sumy cyfrę podniesioną do potęgi długości całej wprowadzonej liczby
 
 if suma == Num:
-	print("OK")
+	print("TAK")
 else:
-	print("NO")
+	print("NIE")
