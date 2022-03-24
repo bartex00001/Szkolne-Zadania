@@ -1,4 +1,6 @@
 # Szkolne-Zadania
-Zadania z programowania
+Będą tu głównie zadania, które robiliśmy na lekcjach
 
-Będą tu głównie głównie te co robiliśmy na lekcjach i zagadnienia na sprawdzian
+Jak pani zapowie zagadnienia na sprawdzian to _postaramy się_ żeby jakaś ich implementacja się tu znalazła
+
+### Jak czegoś brakuje to nam napiszcie
