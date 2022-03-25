@@ -5,16 +5,15 @@ tab = [[1,   2,  3,  4,  5],
 	   [21, 22, 23, 24, 25]]
 
 # wypisywanie wszytkich wartości w tablicy
-'''for i in tab:
+for i in tab:
 	for j in i:
 		print(j)
 
-# alternatywnie
-for i in range(len(tab)):
-	for j in range(len(tab[i])):
-		print( tab[i][j] )'''
+print("Pozycja 4, 3: ")
 
-# print(tab[3][2]) # wypistywanie na pozycji 4 w dół 3 w prawo
+print(tab[3][2]) # wypisywanie na pozycji 4 w dół 3 w prawo (w tym przypadku 18)
+
+print("Przekątna: ")
 
 # wypisywanie na przekątnej
 for i in range(len(tab)):
