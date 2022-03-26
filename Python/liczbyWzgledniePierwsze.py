@@ -5,7 +5,7 @@ def czyLiczbyWzgledniePierwsze(a, b):
 
     # Inna definicja liczb Względnie pierwszych:
     # Dwie liczby, które nie mają wspólnych dzielników
-    for i in range(2, minimum):
+    for i in range(2, minimum+1):
         # Jeżeli jest wspólny dzielnik, to nie są względnie pierwsze
         if a % i == 0 and b % i == 0:
             return False
