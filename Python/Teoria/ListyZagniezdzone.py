@@ -4,13 +4,12 @@ tab = [[1,   2,  3,  4,  5],
 	   [16, 17, 18, 19, 20],
 	   [21, 22, 23, 24, 25]]
 
-# wypisywanie wszytkich wartości w tablicy
-for i in tab:
-	for j in i:
-		print(j)
+# wypisywanie wszytkich wartości w tablicy, każda w nowej linii
+for rzad in tab:
+	for element in rzad:
+		print(element)
 
 print("Pozycja 4, 3: ")
-
 print(tab[3][2]) # wypisywanie na pozycji 4 w dół 3 w prawo (w tym przypadku 18)
 
 print("Przekątna: ")
