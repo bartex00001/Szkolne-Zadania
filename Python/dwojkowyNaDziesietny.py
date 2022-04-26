@@ -1,7 +1,7 @@
 # Program zamieni zapis w systmemie dwojkowym na dziesiętny
 
 # Wczytaj binarną liczbę jako tekst
-liczbaBinarna = input("Podaj liczbę dwojkową: ")
+liczbaBinarna = input("Podaj liczbę dwójkową: ")
 
 wynik = 0
 
@@ -14,6 +14,6 @@ for cyfra in liczbaBinarna:
         wynik += potega
     
     # Idziemy do mniej znaczących bitów
-    potega = potega // 2
+    potega /= 2
 
 print("Wynik:", wynik)
