@@ -1,7 +1,7 @@
 # Program sprawdzi czy podana liczba jest liczbą pierwszą
 
 def czyLiczbaPierwsza(liczba):
-    # Sprawdzenie czy liczba jest większa od 1
+    # Tylko liczby większe od 1 mogą być pierwsze
     if liczba <= 1:
         return False
     
