@@ -1,5 +1,4 @@
 import random
-from re import S
 
 # Program wygeneruje anagram podanego słowa
 # Anagram - słowo zawierające te same litery, ale w innej kolejności
