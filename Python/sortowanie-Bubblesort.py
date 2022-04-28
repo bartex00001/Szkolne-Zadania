@@ -2,16 +2,17 @@
 # Tak robimy tylko gdy nie można użyć funkcji sort()
 
 # Bubble sort
-def bubble_sort(lista):
+def bubble_sort(li):
     # Dla każdego pozycji w liście...
-    for i in range(len(lista)):
+    for i in range(len(li)):
         # Przejdz po wszystkich pozycjach...
-        for j in range(len(lista) - 1):
+        for j in range(len(li) - 1):
             # Jeżeli element jest większy od elementu następnego - zamień miejscami
-            if lista[j] > lista[j + 1]:
-                # Zamień miejscami lista[j] i lista[j + 1]
-                (lista[j], lista[j + 1]) = (lista[j + 1], lista[j])
-    return lista
+            if li[j] > li[j + 1]:
+                # Zamień miejscami li[j] i li[j + 1]
+                (li[j], li[j + 1]) = (li[j + 1], li[j])
+
+    # nie zwracamy li, bo jest to referencja - jej zmiana zmienia orginał
 
 # Podaj długość listy
 dlugosc = int(input("Podaj długość listy: "))
@@ -21,7 +22,7 @@ lista = []
 for i in range(dlugosc):
     lista.append(int(input("Podaj element listy: ")))
 
-posortowanaLista = bubble_sort(lista)
+bubble_sort(lista)
 
 # Wypisz posortowaną listę
-print("Posortowana lista:\n", posortowanaLista)
+print("lista:\n", lista)
