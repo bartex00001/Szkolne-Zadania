@@ -16,10 +16,10 @@ def isPrime(num):
 n = input("Podaj liczbe: ")
 digitSum = 0
 
-# Tutaj n jest tekstem (mozna iterowac)
-for i in n:
-    # i jest po kolei cyframi n (jako literki wiec trzeba zamienić na liczby korzystając z int() )
-    digitSum += int(i)
+# Można tak zrobić, bo n jest tekstem
+for cyfra in n:
+    # cyfra jest tekstem (bo bieżemy z tekstu), dlatego trzeba zamienić na int
+    digitSum += int(cyfra)
 
 # jeżeli n oraz [suma cyfr n] są pierwsze -> ok
 if isPrime(int(n)) and isPrime(digitSum):
