@@ -6,7 +6,7 @@ stopien = int (input("Podaj stopień wielomianu: ") )
 podstawy = []
 
 for i in range(stopien + 1):
-    podstawy.append(int( input("Podaj podstawę przy " + stopień-i + " potędze: ") ))
+    podstawy.append(int( input("Podaj podstawę przy " + str(stopień-i) + " potędze: ") ))
 
 x = int( input("Podaj niewiadomą x: ") )
 
