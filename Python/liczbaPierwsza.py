@@ -7,7 +7,7 @@ def czyLiczbaPierwsza(liczba):
     
     for i in range(2, liczba):
         if liczba % i == 0:
-            return False
+            return False    # jeżeli liczba ma jakiekolwiek dzielniki większe od 2 i mniejsze od niej samej to nie jest pierwsza
     return True
 
 n = int(input("Podaj liczbę: "))

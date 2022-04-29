@@ -1,11 +1,11 @@
 # program imitujący prosty kalkulator. Wprowadza się pierwszą liczbę, potem działanie a następnie drugą liczbę
 
-liczba1 = float(input("Podaj wartość: "))
+liczba1 = float(input("Podaj wartość: "))   #wprowadzenie pierwszej wartości
 
-while True:
+while True:     # Nieskończona pętla
     dzialanie = input("Podaj działanie do wykonania ( *, /, +, - lub quit ): ")
 
-    if dzialanie == "quit":
+    if dzialanie == "quit":     # Sposób na wyłączenie programu
         break
     
     liczba2 = float(input("Podaj kolejną wartość: "))

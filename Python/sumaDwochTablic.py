@@ -16,8 +16,9 @@ for i in range(dlugosc):
 print(arrA)
 print(arrB)
 
-
 for i in range(dlugosc):
 	arrSum.append(arrA[i] + arrB[i])
 
+
+print("Zsumowana lista:")
 print(arrSum)

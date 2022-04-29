@@ -2,7 +2,7 @@
 def dzielniki(x):
     dziel = []
 
-    for i in range(1, x):   #jest x bo chcemy tylko dzielnik właściwe tj. mniejszse od x
+    for i in range(1, x):   # jest x bo chcemy tylko dzielnik właściwe tj. mniejszse od x
         if x%i == 0:
             dziel.append(i)
 

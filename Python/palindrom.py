@@ -1,4 +1,5 @@
 # Sprawdź czy wyraz jest palindromem
+# ZAWARTE SĄ TU DWIE RÓŻNE IMPLEMENTACJE TEGO SAMEGO ZADANIA
 
 # Wczytaj wyraz
 wyraz = input("Podaj wyraz: ")

@@ -1,4 +1,3 @@
-"""
 wielomian:
 y(x) = a*x^3 + b*x^2 + c*x + d
 
@@ -29,6 +28,6 @@ wynik = coef[0]
 
 for i in range(n):
 	wynik = wynik*x + coef[i+1]
-"""
+
 
 # Przykładowa implementacja w pliku schematHornera-normalnie.py

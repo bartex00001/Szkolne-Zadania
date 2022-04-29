@@ -6,6 +6,7 @@ litera = input("Podaj literę: ")
 
 # Zlicz wystąpienia
 licznik = 0
+
 for znak in tekst:
     if znak == litera:
         licznik += 1
