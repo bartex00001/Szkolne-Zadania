@@ -1,4 +1,5 @@
 # Sprawdzenie czy dwie liczby są zaprzyjaźnione
+# Nie mylcie z liczbami skojarzonymi
 
 def dzielniki(x):
     dziel = []
