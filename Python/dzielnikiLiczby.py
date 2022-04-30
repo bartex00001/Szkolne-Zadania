@@ -1,3 +1,5 @@
+# Program wypisze wszystkie dzielnikin podanej liczby
+
 def dzielniki(x):
     dziel = []
 

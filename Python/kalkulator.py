@@ -1,4 +1,5 @@
-# program imitujący prosty kalkulator. Wprowadza się pierwszą liczbę, potem działanie a następnie drugą liczbę
+# program imitujący prosty kalkulator.
+# Wprowadza się pierwszą liczbę, następnie działanie i drugą liczbę
 
 liczba1 = float(input("Podaj wartość: "))   #wprowadzenie pierwszej wartości
 
