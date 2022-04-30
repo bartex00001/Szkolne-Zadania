@@ -1,28 +1,23 @@
 # program imitujący prosty kalkulator.
 # Wprowadza się pierwszą liczbę, następnie działanie i drugą liczbę
 
-liczba1 = float(input("Podaj wartość: "))   #wprowadzenie pierwszej wartości
+liczba1 = float(input("Podaj pierwsza liczbe: "))
 
-while True:     # Nieskończona pętla
-    dzialanie = input("Podaj działanie do wykonania ( *, /, +, - lub quit ): ")
-
-    if dzialanie == "quit":     # Sposób na wyłączenie programu
-        break
+dzialanie = input("Podaj działanie do wykonania ( *, /, +, - ): ")
     
-    liczba2 = float(input("Podaj kolejną wartość: "))
+liczba2 = float(input("Podaj droga liczbe: "))
 
-
-    if dzialanie == "+":
-        liczba1 = liczba1 + liczba2
-    elif dzialanie == "-":
-        liczba1 = liczba1 - liczba2
-    elif dzialanie == "*":
-        liczba1 = liczba1 * liczba2
-    elif dzialanie == "/":
-        if liczba2 == 0:
-            print("BŁĄD DZIELENIA PRZEZ ZERO")
-        else:
-            liczba1 = liczba1 / liczba2
-
-    print(liczba1)
+print("wynik:") # Ładne formatowanie wyjścia
+# wybór działania
+if dzialanie == "+":
+    print(liczba1 + liczba2)
+elif dzialanie == "-":
+    print(liczba1 - liczba2)
+elif dzialanie == "*":
+    print(liczba1 * liczba2)
+elif dzialanie == "/":
+    if liczba2 != 0:
+        print(liczba1 / liczba2)   
+    else:
+         print("BŁĄD DZIELENIA PRZEZ ZERO")
     
