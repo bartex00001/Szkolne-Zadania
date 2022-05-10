@@ -1,5 +1,10 @@
 # Program szyfrujący i odszyfrujący tekst za pomocą algorytmu Cezara
 
+# Użyte dodatkowe funkcje:
+# chr(liczba) == znak o numerze [liczba] w taneli ASCII
+# ord(znak) == numer znaku w tabeli ASCII
+# Tutaj najlepiej jak nie ma polskich.
+
 def zaszyfrujTekst(tekst, klucz):
     zaszyfrowanyTekst = ""
     
