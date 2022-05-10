@@ -6,7 +6,7 @@ podstawy = []
 
 # iterujemy po pętli stopień+1 razy (bo współczynnik jest przy każdej potędze oraz jeden wolny), za każdym razem dodając nową wartość do listy
 for i in range(stopien + 1):
-    podstawy.append(int(input("Podaj podstawę przy " + str(stopien-i) + " potędze: ")))
+    podstawy.append(int(input("Podaj wspolczynnik przy " + str(stopien-i) + " potędze: ")))
 
 #podajemy wartość x dla której obliczana jest wartośc wielomianu
 x = int(input("Podaj niewiadomą x: "))
@@ -21,4 +21,3 @@ for i in range(stopien):
     value = value*x+podstawy[i+1]
 
 print(value)
-
